@@ -1,0 +1,15 @@
+Color:
+<color>_highlight
+e.g. yellow_highlight
+#366092
+
+font color:
+<color>_text
+e.g. red_text
+
+text alignment:
+<position>_alignment
+e.g. left_align
+
+bold:
+bold

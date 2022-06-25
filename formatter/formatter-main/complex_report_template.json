@@ -1,0 +1,236 @@
+{
+    "templateName": "complex_report",
+    "reportName": "complex_report",
+    "sheets": [
+        {
+            "sheetName": "test_sheet",
+            "keysDataType": {
+                "clientCode1" : "string",
+                "clientName" : "string",
+                "assetManagerCode1" : "string",
+                "assetManagerCode2" : "string",
+                "DateYear" : "string",
+                "DateMonth" : "string"
+            },
+            "rawInputs": [
+                {
+                    "clientCode1": "1010",
+                    "clientName": "ABC株式会社",
+                    "assetManagerCode1": "1011",
+                    "TerminationDate": "",
+                    "reportingMonth": "09/30/2021",
+                    "assetManagerCode2": "1",
+                    "DateYear": "2021",
+                    "DateMonth": "9"
+                }
+            ],
+            "rows": [
+                [
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "年金資産運用状況表（まとめ）",
+                        "className": "",
+                       "isKey": false,
+                        "key" : "",
+                       "keyType": ""
+                   }
+                ],
+                [
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "顧客名称",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "clientCode1",
+                        "keyType": "label"
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "clientName",
+                        "keyType": "label"
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "会計基準(2)",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "運用機関名称",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": true,
+                        "key" : "assetManagerCode1",
+                        "keyType": "label"
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": true,
+                        "key" : "assetMangerCode2",
+                        "keyType": "label"
+                    },
+                    
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "記入担当者名",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    }
+                ],
+                [
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "基準日(年YYYY)(月MM)",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": ""
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": true,
+                        "key" : "DateYear",
+                        "keyType": "label"
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": true,
+                        "key" : "DateMonth",
+                        "keyType": "label"
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "" 
+                    },
+                    {
+                        "value": "",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "" 
+                    },
+                    {
+                        "value": "TEL・ﾒｰﾙｱﾄﾞﾚｽ",
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "" 
+                    }
+                ]
+            ]
+        }
+    ]
+}

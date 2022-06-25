@@ -1,0 +1,110 @@
+{
+    "templateName": "simple_report",
+    "reportName": "simple_empty",
+    "sheets": [
+        {
+            "sheetName": "test_sheet",
+            "keysDataType": {
+               
+            },
+            "rawInputs": [
+               
+            ],
+            "rows": [
+                [
+                    {
+                        "value": "Position Date",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "positionDate",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Portfolio",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "portfolio",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Instrument Type",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "instrumentType",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "ISIN",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "ISIN",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Ticker",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "ticker",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Contract Code",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "contractCode",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Coupon",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "coupon",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Maturity Date",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "maturityDate",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Currency",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "currency",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Current Face",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "currentFace",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Original Face",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "originalFace",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Price",
+                        "className": "blue_highlight white_text center_align",
+                        "isKey": true,
+                        "key" : "price",
+                        "keyType": "column"
+                    },
+                    {
+                        "value": "Market Value",
+                        "className": "blue_highlight white_text center_aligne",
+                        "isKey": true,
+                        "key" : "marketValue",
+                        "keyType": "column"
+                    }
+                ]
+            ]
+        }
+    ]
+}

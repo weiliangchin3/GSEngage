@@ -1,0 +1,109 @@
+{
+    "templateName" : "complex_report_stock_balance",
+    "reportName": "complex_stock_balance",
+    "sheets": [
+        {
+            "keysDataType": {
+              
+            },
+            "rawInputs": [],
+            "rows" : [
+                [],
+                [
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "keyType": "",
+                        "value": "ファンド",
+                        "key" : ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key" : "clientName",
+                        "keyType": "label",
+                        "value": ""
+                    }
+                ],
+                [
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "",
+                        "value": "運用機関名称"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "",
+                        "value": ""
+                    }
+                ],
+                [
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "",
+                        "value": "基準日"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key" : "reportingMonth",
+                        "keyType": "label",
+                        "value": ""
+                    }
+                ],
+                [],
+                [
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": true,
+                        "key" : "security_cd",
+                        "keyType": "column",
+                        "value": "Code"
+                    },
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": true,
+                        "key" : "securityDescription",
+                        "keyType": "column",
+                        "value": "Company Name"
+                    },
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "",
+                        "value": "No of Shares"
+                    },
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": false,
+                        "key" : "",
+                        "keyType": "",
+                        "value": "Unit Price"
+                    },
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": true,
+                        "key" : "market_value_bs",
+                        "keyType": "column",
+                        "value": "JPY Market Value"
+                    },
+                    {
+                        "className": "border_left_right_top_bottom",
+                        "isKey": true,
+                        "key" : "trade_ccy_cd",
+                        "keyType": "column",
+                        "value": "Local Currency"
+                    }
+                ]
+            ],
+            "sheetName": "Stock Balance"
+        }
+    ]
+}

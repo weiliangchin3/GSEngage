@@ -1,0 +1,597 @@
+{
+    "templateName" : "complex_report_translated",
+    "reportName": "complex translated",
+    "sheets": [
+        {
+            "keysDataType": {
+              
+            },
+            "rawInputs": [],
+            "rows" : [
+                [],
+                [
+                    "","","","",
+                    {
+                        "className": "bold",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Pension Asset Investment Results (Summary)"
+                    }
+                ],
+                [
+                    "","",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Shareholder Name"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "clientCode1",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "clientName",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    "","",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Accounting Standard(2)"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": ""
+                    }
+                ],
+                [
+                    "","",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Investment Manager"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "assetManagerCode1",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "assetManagerCode2",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    "",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Department"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": ""
+                    }
+
+                ],
+                [
+                    "","",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Record Date(YYYY)(MM)"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "DateYear",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": true,
+                        "key": "DateMonth",
+                        "keyType": "label",
+                        "value": ""
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": ""
+                    },
+                    "",
+                    {
+                        "className": "",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": "Phone/Email Address"
+                    },
+                    {
+                        "className": "border_bottom",
+                        "isKey": false,
+                        "key": "",
+                        "keyType": "",
+                        "value": ""
+                    }
+                ],
+                [
+
+                ],
+                [
+                 "","","","",
+                 {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Cash Inflow(5)"
+                },
+                "",
+                {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Cash Outflow(5)"
+                }
+                ],
+                [
+                  "",
+                   {
+                       "className" : "border_left_top_bottom",
+                       "isKey" :true,
+                       "key" : "assetCode",
+                       "keyType" : "column",
+                       "value" : ""
+                   }, 
+                   {
+                    "className" : "border_right_top_bottom",
+                    "isKey" :true,
+                    "key" : "assetName",
+                    "keyType" : "column",
+                    "value" : ""
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "previousMonthNAV",
+                        "keyType" : "column",
+                        "value" : "Previous Month-End Market Capitalization(1)"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "inflow",
+                        "keyType" : "column",
+                        "value" : "Total Purchases"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "daysInflow",
+                        "keyType" : "column",
+                        "value" : "Days(4)"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "outflow",
+                        "keyType" : "column",
+                        "value" : "Total Redemptions (Includes Interest and Dividend Income)"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "daysOutflow",
+                        "keyType" : "column",
+                        "value" : "Days(4)"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : true,
+                        "key" : "currentMonthNAV",
+                        "keyType" : "column",
+                        "value" : "Current Month-End Market Capitalization (1)"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : true,
+                        "key" : "exposure",
+                        "keyType" : "column",
+                        "value" : "Financial Exposure"
+                    },
+                    "",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : true,
+                        "key" : "compositionRate",
+                        "keyType" : "column",
+                        "value" : "Allocation"
+                    }
+                ],
+                [
+                  "",
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "zzz"
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Total"
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  },
+                  "",
+                  {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                  }
+                ],
+                [],[],[],[],
+                [
+                  "",
+                  {
+                    "className" : "",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Current Month Withdrawal/Deposit"
+                  },
+                  "","","","","","",
+                  {
+                    "className" : "",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Cash Flow Reconciliation(6)"
+                  } 
+                ],
+                [
+                    "",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Deposit"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "clientContribution",
+                        "keyType" : "label",
+                        "value" : ""
+                    },
+                    "","","","","",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Total Inflow"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : true,
+                        "key" : "checkInflow",
+                        "keyType" : "label",
+                        "value" : ""
+                    }
+                ],
+                [
+                   "",
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Earnings(3)"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :true,
+                    "key" : "totalCashOutflow",
+                    "keyType" : "label",
+                    "value" : ""
+                   },
+                   "","","","","",
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" :false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Total Outflow"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : true,
+                    "key" : "checkOutflow",
+                    "keyType" : "label",
+                    "value" : ""
+                   }
+                ],
+                [
+                    "",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Withdrawal"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" :true,
+                        "key" : "clientWithdrawal",
+                        "keyType" : "label",
+                        "value" : ""
+                    },
+                    "","","","","",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Net Cash Flow"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : ""
+                    }
+                ],
+                [
+                    "",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Net Change in Principal"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : true,
+                        "key" : "netIncreaseDecrease",
+                        "keyType" : "label",
+                        "value" : ""
+                    },
+                    "","","","","",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "Difference"
+                    },
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : ""
+                    }
+                    
+
+                ],
+                [],[],
+                [
+                    "",
+                    {
+                        "className" : "",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : "*Currency Overlay (if mandate is appointed individually)"
+                    }
+                    
+                ],
+                [
+                   "",
+                    {
+                        "className" : "border_left_right_top_bottom",
+                        "isKey" : false,
+                        "key" : "",
+                        "keyType" : "",
+                        "value" : ""
+                    },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Previous Month-End Unrealized Gain/Loss(10)"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Current Month-End Unrealized Gain/Loss(10)"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Current Month Realized Gain/Loss"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Current Month Unrealized Gain/Loss Increment(10)"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Current Month Unrealized and Realized Gain/Loss"
+                   }
+                ],
+                [
+                   "",
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Off-Balance Sheet Swaps(9)"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   }
+                ],
+                [],
+                [
+                   "",
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : "Currency Overlay Notional Amount"
+                   },
+                   {
+                    "className" : "border_left_right_top_bottom",
+                    "isKey" : false,
+                    "key" : "",
+                    "keyType" : "",
+                    "value" : ""
+                   } 
+                ]
+
+            ],
+            "sheetName": "Pension Investment Status"
+        }
+    ]
+}

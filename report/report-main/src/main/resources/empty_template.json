@@ -1,0 +1,20 @@
+{
+    "reportName" : "empty template",
+    "workBookSettings" : {
+        
+    },
+    "sheets" : [
+        {
+            "sheetName" : "sheet1",
+            "sheetSettings": {
+               "displayGridLines" : true
+            },
+            "labels" : [
+                
+            ],
+            "tables" : [
+
+            ]
+        }
+    ]
+}

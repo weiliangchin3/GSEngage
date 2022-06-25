@@ -1,0 +1,69 @@
+{
+  "body": {
+    "SIMPLE_REPORT": {
+      "columns": [
+        {
+          "name": "coupon",
+          "type": "double",
+          "field": "coupon"
+        },
+        {
+          "name": "instrumentType",
+          "type": "string",
+          "field": "instrumentType"
+        },
+        {
+          "name": "marketValue",
+          "type": "decimal",
+          "field": "marketValue"
+        },
+        {
+          "name": "originalFace",
+          "type": "decimal",
+          "field": "originalFace"
+        },
+        {
+          "name": "ticker",
+          "type": "string",
+          "field": "ticker"
+        }
+      ],
+      "rows": [
+        {
+          "instrumentType": "CASH",
+          "ticker": "CASH",
+          "coupon": 0,
+          "originalFace": 5.85,
+          "marketValue": 5.85
+        },
+        {
+          "instrumentType": "TBA",
+          "ticker": "TEA",
+          "coupon": 0,
+          "originalFace": -26,
+          "marketValue": -6441175
+        },
+        {
+          "instrumentType": "BD",
+          "ticker": "FL01",
+          "coupon": 0,
+          "originalFace": -70,
+          "marketValue": -8711171.88
+        },
+        {
+          "instrumentType": "BD",
+          "ticker": "FA02",
+          "coupon": 0,
+          "originalFace": -81,
+          "marketValue": -17873156.25
+        },
+        {
+          "instrumentType": "BD",
+          "ticker": "FI403",
+          "coupon": 0,
+          "originalFace": 139
+        }
+      ]
+    }
+  }
+}

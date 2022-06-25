@@ -1,0 +1,10 @@
+# File: cloudbuild.yaml
+# change the fields in <> accordingly
+steps:
+    # build Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '--tag=gcr.io/goldman-hackathon/excel-builder', '.']
+    
+    # push the Docker image to container registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'gcr.io/goldman-hackathon/excel-builder']

@@ -1,0 +1,2855 @@
+{
+    "reportName" : "complex_base",
+    "workBookSettings" : {},
+    "sheets" : [
+        {
+            "sheetName" : "年金運用状況表",
+            "sheetSettings": {
+                "displayGridLines" : false
+             },
+             "labels" : [
+                {
+                    "label" : "Table DnD, have the option to add 'formula row' at the last row for users to input formula related to table \n To create formula row, find the cell address with the largest int value then + 1 to get the row int to insert the formula row then multiply the number of columns defined in the Table DnD to get the total number of objects to create. \n Identify the smallest alphabet to be the starting cell address for the new formula row",
+                    "cellAddress" : "B9",
+                   "isMerge" : true,
+                   "mergeAddress" : "J16",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center",
+                            "vertical" : "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "構成比(7)",
+                    "cellAddress" : "L7",
+                   "isMerge" : true,
+                   "mergeAddress" : "L8",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center",
+                            "vertical" : "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "日数(4)",
+                    "cellAddress" : "H8",
+                   
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "売却総額(含む利配収入)",
+                    "cellAddress" : "G8",
+                   
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "日数(4)",
+                    "cellAddress" : "F8",
+                   
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "買入総額",
+                    "cellAddress" : "E8",
+                   
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "実質エクスポージャー",
+                    "cellAddress" : "J7",
+                    "isMerge" : true,
+                    "mergeAddress" : "J8",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center",
+                            "vertical" : "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "月末時価総額(1)",
+                    "cellAddress" : "I7",
+                    "isMerge" : true,
+                    "mergeAddress" : "I8",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center",
+                            "vertical" : "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "流出キャッシュフロー(5)",
+                    "cellAddress" : "G7",
+                    "isMerge" : true,
+                    "mergeAddress" : "H7",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "流入キャッシュフロー(5)",
+                    "cellAddress" : "E7",
+                    "isMerge" : true,
+                    "mergeAddress" : "F7",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "B7",
+                    "isMerge" : true,
+                    "mergeAddress" : "C8",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "前月末時価総額(1)",
+                    "cellAddress" : "D7",
+                    "isMerge" : true,
+                    "mergeAddress" : "D8",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center",
+                            "vertical" : "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "為替オーバーレイ想定元本(11)",
+                    "cellAddress" : "B31",
+                    "isMerge" : true,
+                    "mergeAddress" : "C31",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月評価損益増+実現",
+                    "cellAddress" : "J28",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月分評価損益額増分(10)",
+                    "cellAddress" : "I28",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月分実現損益額",
+                    "cellAddress" : "G28",
+                    "isMerge": true,
+                    "mergeAddress" : "H28",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月末評価損益額(10)",
+                    "cellAddress" : "E28",
+                    "isMerge": true,
+                    "mergeAddress" : "F28",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "前月末評価損益額(10)",
+                    "cellAddress" : "D28",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "*為替オーバーレイ(個別のマンデートとして採用されている場合)",
+                    "cellAddress" : "B27",
+                    "isMerge" : true,
+                    "mergeAddress" : "F27",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "B28",
+                    "isMerge" : true,
+                    "mergeAddress" : "C28",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "ｵﾌﾊﾞﾗﾝｽ為替(9)",
+                    "cellAddress" : "B29",
+                    "isMerge" : true,
+                    "mergeAddress" : "C29",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月入出金状況",
+                    "cellAddress" : "B20",
+                    "isMerge" : true,
+                    "mergeAddress" : "C20",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "当月中入金",
+                    "cellAddress" : "B21",
+                    "isMerge" : true,
+                    "mergeAddress" : "C21",
+                    "cellStyle" : {
+                      
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "報酬(3)",
+                    "cellAddress" : "B22",
+                    "isMerge" : true,
+                    "mergeAddress" : "C22",
+                    "cellStyle" : {
+                      
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "当月中出金",
+                    "cellAddress" : "B23",
+                    "isMerge" : true,
+                    "mergeAddress" : "C23",
+                    "cellStyle" : {
+                      
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "NET元本増減",
+                    "cellAddress" : "B24",
+                    "isMerge" : true,
+                    "mergeAddress" : "C24",
+                    "cellStyle" : {
+                      
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "会計基準(2)",
+                    "cellAddress" : "G3",
+                    "isMerge" : true,
+                    "mergeAddress" : "H3",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "right"
+                          },
+                    
+                       
+                        
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "記入担当者名",
+                    "cellAddress" : "G4",
+                    "isMerge" : true,
+                        "mergeAddress" : "H4",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "right"
+                          },
+                        
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "TEL・ﾒｰﾙｱﾄﾞﾚｽ",
+                    "cellAddress" : "G5",
+                    "isMerge" : true,
+                    "mergeAddress" : "H5",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "right"
+                          },
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "年金資産運用状況表（まとめ）",
+                    "cellAddress" : "B2",
+                    "isMerge" : true,
+                    "mergeAddress" : "J2",
+                    "cellStyle" : {
+                        "alignment" : {
+                            "horizontal": "center"
+                          },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 12.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "ｷｬｯｼｭﾌﾛｰ･ﾁｪｯｸ(6)",
+                    "cellAddress" : "I20",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        }
+                    }
+                },
+                {
+                    "label" : "流入総額",
+                    "cellAddress" : "I21",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "流出総額",
+                    "cellAddress" : "I22",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "ｷｬｯｼｭﾌﾛｰ計",
+                    "cellAddress" : "I23",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "誤差",
+                    "cellAddress" : "I24",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "顧客名称",
+                    "cellAddress" : "C3",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        }
+                        
+                    }
+                },
+                {
+                    "label" : "運用機関名称",
+                    "cellAddress" : "C4",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        }
+                        
+                    }
+                },
+                {
+                    "label" : "基準日(年YYYY)(月MM)",
+                    "cellAddress" : "C5",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        }
+                        
+                    }
+                },
+                {
+                    "label" : "ｺﾞｰﾙﾄﾞﾏﾝ･ｻｯｸｽ･ｱｾｯﾄ･ﾏﾈｼﾞﾒﾝﾄ株式会社",
+                    "cellAddress" : "E4",
+                    "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                            
+                        ]
+                        
+                    }
+                },
+                {
+                    "label" : "末日",
+                    "cellAddress" : "F5",
+                    "cellStyle" : {
+                        "alignment":{"horizontal":"right"},
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                            
+                        ]
+                        
+                    }
+                }
+             ],
+             "tables" : [
+                 {
+                     "cells" : []
+                     
+                 }
+             ],
+             "singleValues" : [
+                {
+                    "label" : "",
+                   
+                    "cellAddress" : "L16",
+                    "cellStyle" : {
+                       
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#CCFFFF"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L15",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L14",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L13",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L12",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L11",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L10",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "L9",
+                  
+                    "cellStyle" : {
+                       
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D31",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                            
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                        ]
+                    }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J29",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#CCFFFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "I29",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#CCFFFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "G29",
+                    "isMerge" : true,
+                    "mergeAddress" : "H29",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "E29",
+                    "isMerge" : true,
+                    "mergeAddress" : "F29",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D29",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 2
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D24",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#CCFFFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D23",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D22",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D21",
+                   
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J21",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#00CCFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J22",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#00CCFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J23",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#00CCFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 1
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J24",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#00CCFF"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                        {
+                            "type" : "top",
+                            "color" : "#000000",
+                            "style" : 1
+                        },
+                        {
+                            "type" : "right",
+                            "color" : "#000000",
+                            "style" : 2
+                        },
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           },
+                           {
+                            "type" : "left",
+                            "color" : "#000000",
+                            "style" : 1
+                        }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "約定ベース・発生主義",
+                    "cellAddress" : "I3",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "業務部",
+                    "cellAddress" : "I4",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "81(3)0000-0000",
+                    "cellAddress" : "I5",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J4",
+                    "cellStyle" : {
+                      
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "J5",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                 {
+                     "label" : "",
+                     "cellAddress" : "D3",
+                     "cellStyle" : {
+                       
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                          
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                            
+                        ]
+                        
+                    }
+                 },
+                 {
+                    "label" : "",
+                    "cellAddress" : "E3",
+                    "cellStyle" : {
+                      
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "F3",
+                    "cellStyle" : {
+                      
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D4",
+                    "cellStyle" : {
+                      
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "F4",
+                    "cellStyle" : {
+                      
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "D5",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                },
+                {
+                    "label" : "",
+                    "cellAddress" : "E5",
+                    "cellStyle" : {
+                        "fill" : {
+                            "type" : "pattern",
+                            "color" : [
+                                "#FFFF99"
+                            ],
+                            "pattern" : 1
+                        },
+                       "font" : {
+                           "family": "MS P明朝",
+                           "size" : 10.0,
+                           "color" : "#000000"
+                         
+                       },
+                       "border" : [
+                          
+                           {
+                               "type" : "bottom",
+                               "color" : "#000000",
+                               "style" : 2
+                           }
+                           
+                       ]
+                       
+                   }
+                }
+              
+             ]
+        },
+        {
+            "sheetName" : "株式残高",
+            "sheetSettings": {
+                "displayGridLines" : false
+             },
+             "labels" : [
+                {
+                    "label" : "ファンド",
+                    "cellAddress" : "A2",
+                    "cellStyle" : {
+                        
+                        "font" : {
+                            "family": "ＭＳ Ｐゴシック",
+                            "size" : 11.0,
+                            "color" : "#000000"
+                        }
+                       
+                    }
+                },
+                {
+                    "label" : "運用機関名称",
+                    "cellAddress" : "A3",
+                    "cellStyle" : {
+                        
+                        "font" : {
+                            "family": "ＭＳ Ｐゴシック",
+                            "size" : 11.0,
+                            "color" : "#000000"
+                        }
+                       
+                    }
+                },
+                {
+                    "label" : "基準日",
+                    "cellAddress" : "A4",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "ＭＳ Ｐゴシック",
+                            "size" : 11.0,
+                            "color" : "#000000"
+                        }
+                       
+                    }
+                },
+                {
+                    "label" : "ABC株式会社",
+                    "cellAddress" : "B2",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                           
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "ゴールドマン・サックス・アセット・マネジメント株式会社",
+                    "cellAddress" : "B3",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "ＭＳ Ｐゴシック",
+                            "size" : 11.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                           
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "09/30/2021",
+                    "cellAddress" : "B4",
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "ＭＳ Ｐゴシック",
+                            "size" : 11.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                           
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 2
+                            }
+                           
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "Code",
+                    "cellAddress" : "A6",
+                    "cellStyle" : {
+                        "alignment":{"horizontal":"center"},
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "Company Name",
+                    "cellAddress" : "B6",
+                    "alignment":{"horizontal":"center"},
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "No of Shares",
+                    "cellAddress" : "C6",
+                    "alignment":{"horizontal":"center"},
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "Unit Price",
+                    "cellAddress" : "D6",
+                    "alignment":{"horizontal":"center"},
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "JPY Market Value",
+                    "cellAddress" : "E6",
+                    "alignment":{"horizontal":"center"},
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                },
+                {
+                    "label" : "Local Currency",
+                    "cellAddress" : "F6",
+                    "alignment":{"horizontal":"center"},
+                    "cellStyle" : {
+                        "font" : {
+                            "family": "MS P明朝",
+                            "size" : 10.0,
+                            "color" : "#000000"
+                        },
+                        "border" : [
+                            {
+                                "type" : "left",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "top",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "bottom",
+                                "color" : "#000000",
+                                "style" : 1
+                            },
+                            {
+                                "type" : "right",
+                                "color" : "#000000",
+                                "style" : 1
+                            }
+                        ]
+                       
+                    }
+                }
+             ]
+        }
+       
+     
+    ]
+}

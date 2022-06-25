@@ -1,0 +1,42 @@
+image: docker:latest
+
+stages:
+  #- test
+  - build-push
+  - deploy
+
+before_script:
+  - echo $GCP_PROJECT_ID
+
+# unit_test_cases:
+#   image: python:latest
+#   stage: test
+#   before_script:
+#     - python -V
+#     - pip install virtualenv
+#     - virtualenv env
+#     - source env/bin/activate
+#     - pip install -r requirements.txt
+#   script:
+#     - python unit_tests.py
+
+build-push:
+  stage: build-push
+  image: google/cloud-sdk
+
+  before_script:
+    - gcloud auth activate-service-account --key-file $GCP_CLOUD_RUN_SERVICE_CREDS
+    - gcloud config set project $GCP_PROJECT_ID
+
+  script:
+    - gcloud builds submit . --config=cloudbuild.yaml
+
+container-deploy:
+  stage: deploy
+  image: google/cloud-sdk
+  before_script:
+    - gcloud auth activate-service-account --key-file $GCP_CLOUD_RUN_SERVICE_CREDS
+    - gcloud config set project $GCP_PROJECT_ID
+  script:
+    - gcloud run deploy formatter-container --image gcr.io/$GCP_PROJECT_ID/formatter --region asia-southeast1 --platform managed --allow-unauthenticated --max-instances=10 --concurrency=500 --cpu=1 --timeout=30
+    

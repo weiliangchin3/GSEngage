@@ -1,0 +1,136 @@
+/* highlight colours */
+.yellow_highlight {
+  background-color: yellow;
+}
+
+.blue_highlight {
+  background-color: aqua;
+}
+
+.green_highlight {
+  background-color: greenyellow;
+}
+
+.red_highlight {
+  background-color: red;
+}
+
+.black_hightlight {
+  background-color: black;
+}
+
+/* text colours */
+.yellow_text {
+  color: yellow;
+}
+
+.blue_text {
+  color: aqua;
+}
+
+.green_text {
+  color: green;
+}
+
+.red_text {
+  color: red;
+}
+
+.black_text {
+  color: black;
+}
+
+/* Text alignment */
+.left_align {
+  text-align: left !important;
+}
+
+.center_align {
+  text-align: center !important;
+}
+
+.right_align {
+  text-align: right !important;
+}
+
+/* Text bold */
+
+.bold {
+  font-weight: bold;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.toolbox {
+  border: 1px lightgray solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+
+/* buttons styling */
+.buttons {
+  margin: 20px;
+}
+
+.uploadButton {
+  display: flex;
+  justify-content: center;
+}
+
+.style_container {
+  margin: 10px 30px;
+}
+
+.styling_header {
+  text-align: center;
+}
+
+.text_styling {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text_styling_container {
+  display: flex;
+}
+
+.text_styling_box {
+  border: 1px lightgray solid;
+  display: flex;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.spreadsheet_wrapper {
+  max-width: 95%;
+  max-height: 65vh;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_class{
+  margin: 10px 50px;
+}
+
+.button_group{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}

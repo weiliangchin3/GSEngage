@@ -1,0 +1,38 @@
+# image: docker:latest
+# change those in <> accordingly
+stages:
+  - build
+  - build-push
+  - deploy
+
+#before_script:
+#  - echo $GCP_PROJECT_ID
+#
+
+maven-build:
+  image: maven:3-jdk-11
+  stage: build
+  before_script:
+    - chmod +x mvnw
+  script:
+    - ./mvnw verify
+
+build-push:
+ stage: build-push
+ image: google/cloud-sdk
+
+ before_script:
+   - gcloud auth activate-service-account --key-file $GCP_CLOUD_RUN_SERVICE_CREDS
+   - gcloud config set project $GCP_PROJECT_ID
+
+ script:
+   - gcloud builds submit . --config=cloudbuild.yaml
+
+container-deploy:
+ stage: deploy
+ image: google/cloud-sdk
+ before_script:
+   - gcloud auth activate-service-account --key-file $GCP_CLOUD_RUN_SERVICE_CREDS
+   - gcloud config set project $GCP_PROJECT_ID
+ script:
+   - gcloud run deploy report --image gcr.io/$GCP_PROJECT_ID/report --region asia-southeast1 --platform managed --allow-unauthenticated --max-instances=10 --concurrency=500 --cpu=2 --timeout=30
